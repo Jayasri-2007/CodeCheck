@@ -1,0 +1,140 @@
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+  background: linear-gradient(135deg, #111827, #27245c, #5141bd);
+  font-family: Arial, sans-serif;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 430px;
+  padding: 42px 38px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.auth-logo {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #20243a;
+  margin-bottom: 28px;
+}
+
+.auth-logo span {
+  color: #6554d9;
+}
+
+.auth-card h1 {
+  text-align: center;
+  color: #20243a;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.auth-subtitle {
+  text-align: center;
+  color: #777b91;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.auth-card form label {
+  display: block;
+  margin: 18px 0 8px;
+  color: #454a67;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.auth-card form input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d8dbea;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.auth-card form input:focus {
+  border-color: #6554d9;
+  box-shadow: 0 0 0 3px rgba(101, 84, 217, 0.12);
+}
+
+.auth-card form button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 25px;
+  background: linear-gradient(135deg, #6554d9, #8b7cff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.auth-card form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(101, 84, 217, 0.25);
+}
+
+.auth-card form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 25px;
+  color: #777b91;
+  font-size: 14px;
+}
+
+.auth-switch button {
+  background: none;
+  border: none;
+  color: #6554d9;
+  font-weight: bold;
+  margin-left: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.auth-error,
+.auth-success {
+  padding: 12px;
+  margin-top: 18px;
+  border-radius: 7px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.auth-error {
+  background: #fff0f0;
+  color: #b42332;
+}
+
+.auth-success {
+  background: #e9f9ef;
+  color: #176b39;
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 32px 23px;
+  }
+
+  .auth-card h1 {
+    font-size: 24px;
+  }
+}

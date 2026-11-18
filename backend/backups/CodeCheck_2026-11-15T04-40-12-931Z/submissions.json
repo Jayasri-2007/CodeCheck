@@ -1,0 +1,448 @@
+[
+  {
+    "_id": "6af828f5b5d899cf576886a2",
+    "studentName": "Aarav Sharma",
+    "language": "C",
+    "sourceCode": "int a = 10;\nint b = a + 5;\nprintf(b);",
+    "status": "valid",
+    "errorMessage": null,
+    "line": null,
+    "column": null,
+    "hint": "Syntax Valid – No syntax errors found.",
+    "createdAt": "2026-11-14T09:25:09.977Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af828f6b5d899cf576886a4",
+    "studentName": "Priya Patel",
+    "language": "Java",
+    "sourceCode": "int x = 20\nprintf(x);",
+    "status": "invalid",
+    "errorMessage": "Expected ';' after variable declaration",
+    "line": 2,
+    "column": 1,
+    "hint": "Every variable declaration must end with a semicolon ';', e.g., 'int a;' or 'int a = 10;'",
+    "createdAt": "2026-11-14T09:25:10.004Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af82b94f52fdb8c466fa187",
+    "studentName": "Aditya Verma",
+    "language": "C",
+    "sourceCode": "int a = 10;\nint b = 20;\nint result;\nresult = a + b * (b - 2);\nprintf(result);",
+    "status": "valid",
+    "errorMessage": null,
+    "line": null,
+    "column": null,
+    "hint": "Syntax Valid – No syntax errors found.",
+    "createdAt": "2026-11-14T09:36:20.021Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af82b94f52fdb8c466fa189",
+    "studentName": "Aditya Verma",
+    "language": "C",
+    "sourceCode": "int total;\ntotal = 10 + (5 * 2;\nprintf(total);",
+    "status": "invalid",
+    "errorMessage": "Expected ')' after expression",
+    "line": 2,
+    "column": 20,
+    "hint": "Unmatched opening parenthesis '('. Ensure all parenthesized expressions are closed with ')'.",
+    "createdAt": "2026-11-14T09:36:20.385Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af82f20f52fdb8c466fa18d",
+    "studentName": "jaysree",
+    "language": "Java",
+    "sourceCode": "int 12abc = 5;\nprintf(12abc);",
+    "status": "invalid",
+    "errorMessage": "Invalid identifier starting with digits '12abc' at line 1, column 5",
+    "line": 1,
+    "column": 5,
+    "hint": "Identifiers must start with a letter or underscore, not a number.",
+    "createdAt": "2026-11-14T09:51:28.455Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8a0f725b85412e11a4618",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "int main() { int a = 10; return 0; }",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-14T17:57:11.420Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8a12725b85412e11a4619",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "int main() { int a = 10 return 0; }",
+    "success": false,
+    "message": "Expected ';' at line 1, found 'return'",
+    "submittedAt": "2026-11-14T17:57:59.825Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8a29c25b85412e11a461a",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "int main() { int a = 10; return 0; }",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-14T18:04:12.186Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8a2c225b85412e11a461b",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "int main() { int a = 10 return 0; }",
+    "success": false,
+    "message": "Expected ';' at line 1, found 'return'",
+    "submittedAt": "2026-11-14T18:04:50.679Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8a48b25b85412e11a461c",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int a = 10;\n    int b = 20;\n    int sum = a + b;\n\n    printf(\"%d\", sum);\n\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T18:12:27.599Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8a4ca25b85412e11a461d",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "int main() {\n    int a = 10;\n    int b = 20;\n    int sum = a + b;\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-14T18:13:30.413Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8a92425b85412e11a461e",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T18:32:04.141Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8ab2f25b85412e11a461f",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T18:40:47.668Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8ab9e25b85412e11a4620",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T18:42:38.379Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8abfe25b85412e11a4621",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T18:44:14.940Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8adc225b85412e11a4622",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T18:51:46.692Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8ae0725b85412e11a4623",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T18:52:55.365Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8aecb25b85412e11a4624",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T18:56:11.485Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af8b0b225b85412e11a4625",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": false,
+    "message": "Invalid character '#' at line 1",
+    "submittedAt": "2026-11-14T19:04:18.232Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91084c4b7ae3a8e7e6e68",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T01:53:08.329Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af910dfc4b7ae3a8e7e6e69",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\nint main() {\n    int age = 10\n    return 0;\n}",
+    "success": false,
+    "message": "Expected ';' at line 4, found 'return'",
+    "submittedAt": "2026-11-15T01:54:39.270Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91118c4b7ae3a8e7e6e6a",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int a = 10;\n    int b = 20;\n    int sum = a + b;\n\n    printf(\"Sum = %d\", sum);\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T01:55:36.946Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91147c4b7ae3a8e7e6e6b",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int age = 20;\n\n    if (age >= 18) {\n        printf(\"Eligible\");\n    } else {\n        printf(\"Not Eligible\");\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T01:56:23.942Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af9114ec4b7ae3a8e7e6e6c",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int age = 20;\n\n    if (age >= 18) {\n        printf(\"Eligible\");\n    } else {\n        printf(\"Not Eligible\");\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T01:56:30.127Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af9116ac4b7ae3a8e7e6e6d",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int i = 1;\n\n    while (i <= 5) {\n        printf(\"%d\", i);\n        i = i + 1;\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T01:56:58.996Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91182c4b7ae3a8e7e6e6e",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    int result = add(10, 20);\n    printf(\"%d\", result);\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T01:57:22.722Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af9119cc4b7ae3a8e7e6e6f",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int marks = 85;\n\n    if (marks >= 90) {\n        printf(\"Grade A\");\n    } else {\n        if (marks >= 75) {\n            printf(\"Grade B\");\n        } else {\n            printf(\"Grade C\");\n        }\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T01:57:48.774Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af911b4c4b7ae3a8e7e6e70",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int marks = 85;\n\n    if (marks >= 50) {\n        printf(\"Pass\")\n    }\n\n    return 0;\n}",
+    "success": false,
+    "message": "Expected ';' at line 8, found '}'",
+    "submittedAt": "2026-11-15T01:58:12.703Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af912c5c4b7ae3a8e7e6e71",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int i;\n\n    for (i = 1; i <= 5; i++) {\n        printf(\"%d\", i);\n    }\n\n    return 0;\n}",
+    "success": false,
+    "message": "Expected ')' at line 6, found ';'",
+    "submittedAt": "2026-11-15T02:02:45.135Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af9144bc4b7ae3a8e7e6e72",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int i;\n\n    for (i = 1; i <= 5; i++) {\n        printf(\"%d\", i);\n    }\n\n    return 0;\n}",
+    "success": false,
+    "message": "Expected ')' at line 6, found ';'",
+    "submittedAt": "2026-11-15T02:09:15.697Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af914f3c4b7ae3a8e7e6e73",
+    "studentName": "Jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\nint main() {\n    int age;\n    scanf(\"%d\", &age);\n    printf(\"Hello\");\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T02:12:03.873Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91519c4b7ae3a8e7e6e74",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int i;\n\n    for (i = 1; i <= 5; i++) {\n        printf(\"%d\", i);\n    }\n\n    return 0;\n}",
+    "success": false,
+    "message": "Expected ')' at line 6, found ';'",
+    "submittedAt": "2026-11-15T02:12:41.606Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91606c4b7ae3a8e7e6e75",
+    "studentName": "jayasri",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int i;\n\n    for (i = 1; i <= 5; i++) {\n        printf(\"%d\", i);\n    }\n\n    return 0;\n}",
+    "success": false,
+    "message": "Expected ')' at line 6, found ';'",
+    "submittedAt": "2026-11-15T02:16:38.541Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91f9f3acb8f3f77848e5b",
+    "studentName": "Test Student",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int age = 20;\n\n    if (age >= 18) {\n        printf(\"Eligible\");\n    } else {\n        printf(\"Not Eligible\");\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T02:57:35.501Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91fbf3acb8f3f77848e5c",
+    "studentName": "Test Student",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int i = 1;\n\n    while (i <= 5) {\n        printf(\"%d\", i);\n        i = i + 1;\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T02:58:07.542Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91fd83acb8f3f77848e5d",
+    "studentName": "Test Student",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    int result = add(10, 20);\n    printf(\"%d\", result);\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T02:58:32.792Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91feb3acb8f3f77848e5e",
+    "studentName": "Test Student",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int marks = 85;\n\n    if (marks >= 90) {\n        printf(\"Grade A\");\n    } else {\n        if (marks >= 75) {\n            printf(\"Grade B\");\n        } else {\n            printf(\"Grade C\");\n        }\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T02:58:51.018Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91ffa3acb8f3f77848e5f",
+    "studentName": "Test Student",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int marks = 85;\n\n    if (marks >= 50) {\n        printf(\"Pass\")\n    }\n\n    return 0;\n}",
+    "success": false,
+    "message": "Expected ';' at line 8, found '}'",
+    "submittedAt": "2026-11-15T02:59:06.859Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af91ffb3acb8f3f77848e60",
+    "studentName": "Test Student",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int marks = 85;\n\n    if (marks >= 50) {\n        printf(\"Pass\")\n    }\n\n    return 0;\n}",
+    "success": false,
+    "message": "Expected ';' at line 8, found '}'",
+    "submittedAt": "2026-11-15T02:59:07.171Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af920283acb8f3f77848e61",
+    "studentName": "Test Student",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int marks = 85;\n\n    if (marks >= 50) {\n        printf(\"Pass\");\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T02:59:52.469Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af920283acb8f3f77848e62",
+    "studentName": "Test Student",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int marks = 85;\n\n    if (marks >= 50) {\n        printf(\"Pass\");\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T02:59:52.666Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af925e53acb8f3f77848e64",
+    "studentName": "bharath",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int i;\n\n    for (i = 1; i <= 5; i++) {\n        printf(\"%d\", i);\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T03:24:21.839Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af931aac29c01387f5bf39a",
+    "studentName": "bharath",
+    "userId": "6af925aa3acb8f3f77848e63",
+    "language": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int marks = 85;\n\n    if (marks >= 50) {\n        printf(\"Pass\");\n    }\n\n    return 0;\n}",
+    "success": true,
+    "message": "Syntax is valid!",
+    "submittedAt": "2026-11-15T04:14:34.858Z",
+    "__v": 0
+  }
+]

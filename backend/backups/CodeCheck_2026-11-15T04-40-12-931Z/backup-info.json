@@ -1,0 +1,8 @@
+{
+  "database": "CodeCheck",
+  "createdAt": "2026-11-15T04:40:12.944Z",
+  "collections": [
+    "users",
+    "submissions"
+  ]
+}

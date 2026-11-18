@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "6af91b7f3acb8f3f77848e5a",
+    "name": "Test Student",
+    "email": "teststudent@example.com",
+    "password": "$2b$10$jHChN65.fv3uPDTP6CtlNe9Ji0pLrz2E7REzyJMJAFi6EYwgHDa/i",
+    "role": "student",
+    "createdAt": "2026-11-15T02:39:59.503Z",
+    "updatedAt": "2026-11-15T02:39:59.503Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af925aa3acb8f3f77848e63",
+    "name": "bharath",
+    "email": "bharath@gmail.com",
+    "password": "$2b$10$xuuzez78zp3Ytmzi01H4J.JTLammrAG/H0PwWNs1JdS8ImkRSdWNe",
+    "role": "student",
+    "createdAt": "2026-11-15T03:23:22.848Z",
+    "updatedAt": "2026-11-15T03:23:22.848Z",
+    "__v": 0
+  },
+  {
+    "_id": "6af92663c1039056a6c6fb99",
+    "name": "CodeCheck Admin",
+    "email": "admin@codecheck.com",
+    "password": "$2b$10$UIN/8s1mtMGf.75MfpFblenH2OFSg/IwX/fdahthDJJ5IqFA3eXYO",
+    "role": "admin",
+    "createdAt": "2026-11-15T03:26:27.547Z",
+    "updatedAt": "2026-11-15T03:26:27.547Z",
+    "__v": 0
+  }
+]
