@@ -23,3 +23,14 @@ backend/dist/
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Admin creation script
+backend/createAdmin.js
