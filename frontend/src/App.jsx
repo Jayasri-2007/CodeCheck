@@ -21,7 +21,7 @@ function AdminDashboard({ user, token, onLogout }) {
       setError("");
 
       const response = await fetch(
-        "http://localhost:5000/api/admin/submissions",
+        "https://codecheck-backend-wfdc.onrender.com/api/admin/submissions",
         {
           headers: {
             Authorization: `Bearer ${token}`
@@ -567,7 +567,7 @@ function App() {
   const loadHistory = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/history",
+        "https://codecheck-backend-wfdc.onrender.com/api/history",
         {
           headers: {
             Authorization: `Bearer ${token}`
@@ -605,7 +605,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/validate",
+        "https://codecheck-backend-wfdc.onrender.com/api/validate",
         {
           method: "POST",
           headers: {
@@ -753,3 +753,4 @@ function App() {
 }
 
 export default App;
+

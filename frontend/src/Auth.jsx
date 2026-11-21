@@ -32,7 +32,7 @@ function Auth({ onLogin }) {
       const endpoint = isLogin ? "login" : "register";
 
       const response = await fetch(
-        `http://localhost:5000/api/auth/${endpoint}`,
+        `https://codecheck-backend-wfdc.onrender.com/api/auth/${endpoint}`,
         {
           method: "POST",
           headers: {
@@ -161,3 +161,4 @@ function Auth({ onLogin }) {
 }
 
 export default Auth;
+
